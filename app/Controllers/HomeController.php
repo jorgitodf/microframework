@@ -9,6 +9,5 @@ class HomeController
     {
         echo "Olá Home Controller";
         echo $request->get->nome;
-        $this->view->render('index.twig', array('name' => 'Fabien'));
     }
 }
